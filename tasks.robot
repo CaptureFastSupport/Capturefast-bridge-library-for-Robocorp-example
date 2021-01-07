@@ -6,7 +6,7 @@ Library           RPA.JSON
 Library           OperatingSystem
 
 *** Variables ***
-${FILE_PATH} =    ${CURDIR}${/}NOTICE_OF_HEARING_001.pdf
+${FILE_PATH} =    #Please write document path
 ${DOCUMENT_TYPE_ID} =  #Please write CaptureFast document type Id
 
 *** Tasks ***

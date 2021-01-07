@@ -57,12 +57,7 @@ The next process continues by using the "Upload Document" and "Get Document Data
 "Upload Document" returns a "Document ID" to send your document to CaptureFast and to track the status of your document.
 
 ```upload
-*** Keywords ***
-Document Upload
-    [Arguments]    ${filepath}  ${document_type_id}
-    
-    ${docid}=  Upload Document  ${filepath}   ${document_type_id}
-    [Return]  ${docid}
+ ${documentid} =  UploadDocument   ${FILE_PATH}  ${DOCUMENT_TYPE_ID} 
 ```
 
 To use the Upload Document function, the path of your file should be given as the 1st parameter and the ${document_type_id}  as the 2nd parameter.
@@ -73,12 +68,6 @@ By doing this, we ensure to get the results of the document that we defined in C
 Results can be retrieved with the help of using ${documentid} (that has been supplied in Upload Document function) as a parameter. 
 
 ```upload
-*** Keywords ***
-Document Get Data
-    [Arguments]    ${documentid}
-    
-    ${response}=  GetDocumentData  ${documentid}
-    
-    [Return]  ${response}
+${document_result} =  GetDocumentData   ${documentid}   
 ```
 

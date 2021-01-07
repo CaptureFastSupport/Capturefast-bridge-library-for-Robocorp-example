@@ -7,7 +7,7 @@ Library           OperatingSystem
 
 *** Variables ***
 ${FILE_PATH} =    ${CURDIR}${/}NOTICE_OF_HEARING_001.pdf
-${DOCUMENT_TYPE_ID} =    11790
+${DOCUMENT_TYPE_ID} =  #Please write CaptureFast document type Id
 
 *** Tasks ***
 DocumentGetData

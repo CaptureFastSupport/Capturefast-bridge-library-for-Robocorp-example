@@ -45,8 +45,8 @@ Go to the "RPA_SECRET_FILE" file, Its content should be as follows:
 {
   "credentials": {
     "username": "Please enter your CaptureFast user mail",
-    "password": "Please enter your CaptureFast password”
-	"teamid": "Please write CaptureFast Team ID"
+    "password": "Please enter your CaptureFast password",
+    "teamid": "Please write CaptureFast Team ID"
   }
 }
 ```

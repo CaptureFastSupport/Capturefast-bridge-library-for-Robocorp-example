@@ -27,7 +27,7 @@ Library  CaptureFast
 
 ## Vault File Usage
 
-In order to use the Robocorp cloud a json file should be created by using the vault mechanism offered by Robocorp to provide authorization information. (https://robocorp.com/docs/development-howtos/variables-and-secrets/vault)
+In order to use the Robocorp cloud a json file should be created by using the vault mechanism offered by Robocorp to provide authorization information.To use the vault mechanism in the lab environment, a vault file and a secret file must be created. (https://robocorp.com/docs/development-howtos/variables-and-secrets/vault)
 In project, you need to create a folder named “devdata” and create a “env.json”. You should write the comment below into this json file.
 
 ```vault

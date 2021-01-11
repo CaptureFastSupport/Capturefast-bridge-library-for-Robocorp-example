@@ -6,8 +6,6 @@ This library has been created for data parse operation over documents via Captur
 
 CaptureFastLibrary can be found on PyPI: https://pypi.org/project/robotframework-capturefast/
 
-Please create a new terminal in Robocorp Lab.
-
 To install, simply use pip:
 
 ```dos
